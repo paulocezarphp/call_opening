@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Call Opening</title>
+  <?php
+      $login_validate = true;
+      $system_install = true;
+
+      function NamePage($login_validate){
+
+          if($login_validate == true){
+             return "- Admin";
+          }else{
+             return "";
+          }
+
+      }
+
+  ?>
+	<title>Call Opening <?php echo NamePage($login_validate); ?></title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="sortcut icon" href="app/system/images/icon.png" type="image/x-icon" />
 </head>
 <body>
    
-   <?php
-      
-      $login_validate = true;
-      $system_install = true;
+   <?php     
 
       if($system_install == true){
           
@@ -21,8 +36,6 @@
       }else{
       	 //Install System
       }
-
-
 
    ?>
 
