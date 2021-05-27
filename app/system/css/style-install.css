@@ -1,9 +1,19 @@
-.install{
+body{
+	background: #ccc;
+	font-family: 'Roboto', sans-serif;
+}
 
+.install{
+	background: #fff;
+	position: absolute;
+	transform: translate(-50%, -50%);
+	top: 50%;
+	left: 50%;
+	width: 600px;
 }
 
 .install-group{
-
+	padding: 20px;
 }
 
 .install-image{
@@ -11,36 +21,68 @@
 }
 
 .install-title{
-
+   padding: 0px 10px;
+   font-size: 30px;
+   font-weight: bold;
+   margin-bottom: 7px;
 }
 
 .install-description{
-
+   padding: 0px 10px;
+   margin-bottom: 12px; 
+   color: #777;
 }
 
 .install-group-div{
-
+	display: grid;
+	grid-template-columns: 50% 50%;
 }
 
 .install-group-left{
-
+    margin: 10px;
 }
 
 .install-group-right{
-
+    margin: 10px;
 }
 
 .install-group-label{
-
+    margin-bottom: 5px;
+    margin-top: 13px;
+    font-size: 14px;
+    color: #777;
 }
 
 .install-group-input{
-
+    border: none;
+    outline: none;
+    background: #f2f2f2;
+    border-bottom: 3px solid #dedede;	
+    padding: 7px 10px;
+    width: 92%;
 }
 
 .install-submit{
-
+    background: #339933;
+    padding: 13px 50px;
+    margin-top: 20px;
+    margin-bottom: 25px;
+    position: relative;
+    transform: translateX(-97%);
+    left: 97%;
+    border: none;
+    outline: none;
+    font-size: 17px;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 2px;
 }
+
+.install-submit:hover{
+    background: #267326;
+}
+
+
 
 
 

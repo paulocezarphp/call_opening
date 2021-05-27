@@ -1,6 +1,6 @@
 <?php
    define("HOST","localhost");
-   define("BANCO","callopening");
+   define("DATABASE","callopening");
    define("USER","root");
    define("PASSWORD","");
    $conn = new PDO("mysql:dbname=".BANCO.";host=".HOST."",USER,PASSWORD);
