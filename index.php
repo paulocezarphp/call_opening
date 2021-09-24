@@ -2,6 +2,7 @@
 <html>
 <head>
   <?php
+  
       $login_validate = true;
       $system_install = true;
 
