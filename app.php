@@ -11,27 +11,27 @@ if($operation == "validate-login"){
 
    	//Operation...
 
-}elseif($operation == "?"){
+}elseif($operation == "create-admin"){
 
     //Operation...	
 
-}elseif($operation == "??"){
+}elseif($operation == "change-admin"){
 
     //Operation...	
 
-}elseif($operation == "???"){
+}elseif($operation == "remove-admin"){
 
     //Operation...	
 
-}elseif($operation == "????"){
+}elseif($operation == "create-client"){
 
     //Operation...	
 
-}elseif($operation == "?????"){
+}elseif($operation == "change-client"){
 
     //Operation...	
 
-}elseif($operation == "??????"){
+}elseif($operation == "remove-client"){
 
     //Operation...	
 

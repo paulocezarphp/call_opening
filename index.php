@@ -24,6 +24,7 @@
   <link rel="stylesheet" type="text/css" href="app/system/css/style-mobile.css">
   <link rel="stylesheet" type="text/css" href="app/system/css/style-tablet.css">
   <link rel="stylesheet" type="text/css" href="app/system/css/style-desktop.css">
+  <?php include("app/system/php/themes/themes_style.php"); ?>
 </head>
 <body>
    
@@ -32,13 +33,19 @@
       if($system_install == true){
           
           if($login_validate == true){
+
               //admin acess
+
           }else{
+
               //login acess
+
           }
 
       }else{
+
       	 //Install System
+        
       }
 
    ?>
